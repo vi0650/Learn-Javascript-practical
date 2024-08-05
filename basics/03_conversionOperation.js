@@ -51,3 +51,8 @@ num1 = num3 = num3 = 2 + 3
 let gameCounter = 100
  gameCounter++;
 console.log(gameCounter);
+
+let a = 3;
+const b = a;
+
+console.log(`a:${a},b:${b}`);
