@@ -42,17 +42,32 @@ let str3 = str1 + str2
 // console.log(1 + "2");
 // console.log(( 3 + 4 ) * 5 % 3);
 
-console.log(+true);
-console.log(+"");
+// console.log(+true);
+// console.log(+"");
 
 let num1, num2, num3
 num1 = num3 = num3 = 2 + 3
 
 let gameCounter = 100
  gameCounter++;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 let a = 3;
-const b = a;
+let b = a++;
+let c = ++a;
+let d = --a;
+let e = a--;
 
-console.log(`a:${a},b:${b}`);
+console.log({a},{b},{c},{d},{e});
+
+let x = 3;
+const y = --x;
+// x is 2; y = 2
+// console.log({x},{y});
+
+let a2 = 3n;
+const b2 = --a2;
+// x2 is 2n; y2 is 2n
+
+// console.log({a2},{b2});
+
