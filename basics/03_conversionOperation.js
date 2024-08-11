@@ -58,7 +58,7 @@ let c = ++a;
 let d = --a;
 let e = a--;
 
-console.log({a},{b},{c},{d},{e});
+// console.log({a},{b},{c},{d},{e});
 
 let x = 3;
 const y = --x;
@@ -71,3 +71,14 @@ const b2 = --a2;
 
 // console.log({a2},{b2});
 
+// console.log(null > 0)     //comparison operators
+// console.log(null >= 0)
+// console.log(null == 0)   //diffrent syntax in diffrent level
+
+// console.log(undefined > 0)    // this type of conversion getting in confusion so don't use this conversion method
+// console.log(undefined < 0) 
+// console.log(undefined >= 0) 
+// console.log(undefined <= 0) 
+// console.log(undefined == 0) 
+
+console.log("0" === 0)
