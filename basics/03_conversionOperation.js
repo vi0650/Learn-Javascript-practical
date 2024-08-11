@@ -70,15 +70,3 @@ const b2 = --a2;
 // x2 is 2n; y2 is 2n
 
 // console.log({a2},{b2});
-
-// console.log(null > 0)     //comparison operators
-// console.log(null >= 0)
-// console.log(null == 0)   //diffrent syntax in diffrent level
-
-// console.log(undefined > 0)    // this type of conversion getting in confusion so don't use this conversion method
-// console.log(undefined < 0) 
-// console.log(undefined >= 0) 
-// console.log(undefined <= 0) 
-// console.log(undefined == 0) 
-
-console.log("0" === 0)
