@@ -33,5 +33,7 @@ const myFunction = function(){
     console.log("Hello World");
 }
 console.log(type);
+console.log(type);
+
 
 myFunction;
