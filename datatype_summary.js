@@ -14,7 +14,7 @@ const anotherId = Symbol('1234')
 
 console.log(Id === anotherId)
 
-const bigNumber = 21847354812845217412n
+// const bigNumber = 21847354812845217412n
 
 // # Reference (Non primitive)
 
@@ -23,7 +23,7 @@ const bigNumber = 21847354812845217412n
 // javascript is dynamicaly typed language
 
 
-const heros = ["shaktiman", "flying Jatt", "nagraj"];
+const heros = ["shaktiman", "flying Jatt", "naagraj"];
 let myObj={
     name: "vaibhav",
     age: 22,
@@ -32,8 +32,8 @@ let myObj={
 const myFunction = function(){
     console.log("Hello World");
 }
-console.log(type);
-console.log(type);
+console.table([typeof scoreValue, outSideTemp, heros, myObj]);
+
 
 
 myFunction;
