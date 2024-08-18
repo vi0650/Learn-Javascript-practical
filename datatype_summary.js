@@ -33,7 +33,7 @@ const myFunction = function(){
     console.log("Hello World");
 }
 console.table([typeof scoreValue, outSideTemp, heros, myObj]);
-
+console.log("connection complete")
 
 
 myFunction;
