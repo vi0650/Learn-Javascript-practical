@@ -12,7 +12,7 @@ let userEmail;
 const Id = Symbol('1234')
 const anotherId = Symbol('1234')
 
-console.log(Id === anotherId)
+// console.log(Id != anotherId)
 
 // const bigNumber = 21847354812845217412n
 
@@ -23,17 +23,60 @@ console.log(Id === anotherId)
 // javascript is dynamicaly typed language
 
 
-const heros = ["shaktiman", "flying Jatt", "naagraj"];
+// const heros = ["shaktiman", "flying Jatt", "naagraj"];
 let myObj={
     name: "vaibhav",
     age: 22,
 }
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
+console.table([typeof scoreValue, outSideTemp, myObj]);
+// console.log("data fetch completed")
+
+
+// myFunction;
+
+// function reverseString(str){
+//     return str.split('').reverse().join('');
+// }
+
+// console.log(reverseString('nhsirk erah'));
+
+let Operator1={
+    Type_of_Value : ["undefined"],
+    Result : ["undefined"],
 }
-console.table([typeof scoreValue, outSideTemp, heros, myObj]);
-console.log("connection complete")
+let Operator2={
+    Type_of_Value : ["Null"],
+    Result : ["object"],
+}
+let Operator3={
+    Type_of_Value : ["Boolean"],
+    Result : ["boolean"],
+}
+let Operator4={
+    Type_of_Value : ["Number"],
+    Result : ["number"],
+}
+let Operator5={
+    Type_of_Value : ["String"],
+    Result : ["string"],
+}
+let Operator6={
+    Type_of_Value : ["Object (native and does not implement [[Call]])"],
+    Result : ["object"],
+}
+let Operator7={
+    Type_of_Value : ["Object (native or host and does implement [[Call]])"],
+    Result : ["function"],
+}
+let Operator8={
+    Type_of_Value : ["Object (host and does not implement [[Call]])"],
+    Result : ["Implementation-defined except may not be 'undefined', 'boolean', 'number', or 'string'"],
+}
 
+console.table([Operator1,Operator2,Operator3,Operator4,Operator5,Operator6,Operator7,Operator8]);
 
-myFunction;
+//  this is just only for fun
