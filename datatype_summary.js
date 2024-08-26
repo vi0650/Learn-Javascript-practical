@@ -1,6 +1,7 @@
-// # primitive datatypes -- 7 catagory
+// ? use ( Better comments ) extension for better comment view highlights
+// * primitive datatypes -- 7 catagory
 
-// 7 types : string, number, boolean, null, undefined, symbol, BigInt
+// * 7 types : string, number, boolean, null, undefined, symbol, BigInt
 
 const score = 100
 
@@ -16,11 +17,11 @@ const anotherId = Symbol('1234')
 
 // const bigNumber = 21847354812845217412n
 
-// # Reference (Non primitive)
+// * Reference (Non primitive)
 
-// Array, Object, Functions
+// * Array, Object, Functions
 
-// javascript is dynamicaly typed language
+// ! javascript is dynamicaly typed language
 
 
 // const heros = ["shaktiman", "flying Jatt", "naagraj"];
@@ -32,7 +33,7 @@ let myObj={
 // const myFunction = function(){
 //     console.log("Hello World");
 // }
-console.table([typeof scoreValue, outSideTemp, myObj]);
+// console.table([typeof scoreValue, outSideTemp, myObj]);
 // console.log("data fetch completed")
 
 
@@ -77,6 +78,35 @@ let Operator8={
     Result : ["Implementation-defined except may not be 'undefined', 'boolean', 'number', or 'string'"],
 }
 
-console.table([Operator1,Operator2,Operator3,Operator4,Operator5,Operator6,Operator7,Operator8]);
+// console.table([Operator1,Operator2,Operator3,Operator4,Operator5,Operator6,Operator7,Operator8]);
 
-//  this is just only for fun
+// ? this is just only for fun
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// * Stack ( primitive ), heap ( Non-Primitive )
+
+let myYoutubename = "Scopcodedotcom"
+
+let anothername = myYoutubename
+
+anothername = "codesdotcom"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// ? 👆 this is example of primitive means -> stack (it changes only in copy value - not in real given value)
+
+let userOne = {
+    email: "user@example.com",
+    upi: "user@sbi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "BC@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// ? 👆 this is example of Non-primitive means -> Heap (it changes reference value -> change in original value)
